@@ -10,10 +10,20 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej Codesion & Bitbucket!");
+            Greeter.Hello();
             Console.WriteLine("John här");
-            Console.WriteLine("And goodbye!");
+            Greeter.Goodbye();
             Console.WriteLine("Freeedag :D");
+        }
+    }
+
+    static class Greeter {
+        public static void Hello() {
+            Console.WriteLine("Hej Codesion & Bitbucket!");
+        }
+
+        public static void Goodbye() {
+            Console.WriteLine("And goodbye!");
         }
     }
 }
