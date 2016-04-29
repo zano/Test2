@@ -11,7 +11,7 @@ namespace Test2
         static void Main(string[] args)
         {
             Greeter.Hello();
-            Console.WriteLine("John här");
+            Greeter.WhoopWhoop();
             Greeter.Goodbye();
             Greeter.Friday();
             
@@ -24,6 +24,11 @@ namespace Test2
     static class Greeter {
         public static void Hello() {
             Console.WriteLine("Hej Codesion & Bitbucket!");
+        }
+
+        public static void WhoopWhoop()
+        {
+            Console.WriteLine("Friday!! :D");
         }
 
         public static void Goodbye() {
