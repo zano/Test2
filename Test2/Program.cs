@@ -10,7 +10,7 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello GitHub!");
+            Console.WriteLine("Hej GitHub!");
             Console.WriteLine("And goodbye!");
         }
     }
