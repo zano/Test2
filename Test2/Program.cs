@@ -13,7 +13,7 @@ namespace Test2
             Greeter.Hello();
             Console.WriteLine("John här");
             Greeter.Goodbye();
-            Console.WriteLine("Freeedag :D");
+            Greeter.Friday();
         }
     }
 
@@ -24,6 +24,11 @@ namespace Test2
 
         public static void Goodbye() {
             Console.WriteLine("And goodbye!");
+        }
+
+        internal static void Friday()
+        {
+            Console.WriteLine("Freeedag :D");            
         }
     }
 }
