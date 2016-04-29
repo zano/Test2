@@ -11,15 +11,19 @@ namespace Test2
         static void Main(string[] args)
         {
             Greeter.Hello();
-            Console.WriteLine("John här");
+            Greeter.WhoopWhoop();
             Greeter.Goodbye();
-            Console.WriteLine("Freeedag :D");
         }
     }
 
     static class Greeter {
         public static void Hello() {
             Console.WriteLine("Hej Codesion & Bitbucket!");
+        }
+
+        public static void WhoopWhoop()
+        {
+            Console.WriteLine("Friday!! :D");
         }
 
         public static void Goodbye() {
