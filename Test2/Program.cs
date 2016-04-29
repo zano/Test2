@@ -12,6 +12,7 @@ namespace Test2
         {
             Console.WriteLine("Hej Codesion & Bitbucket!");
             Console.WriteLine("And goodbye!");
+            Console.WriteLine("Freeedag :D");
         }
     }
 }
