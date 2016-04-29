@@ -14,6 +14,10 @@ namespace Test2
             Console.WriteLine("John här");
             Greeter.Goodbye();
             Console.WriteLine("Freeedag :D");
+
+            Console.WriteLine("Press the ANY key");
+            Console.ReadKey();
+
         }
     }
 
