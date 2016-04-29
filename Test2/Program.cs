@@ -11,6 +11,7 @@ namespace Test2
         static void Main(string[] args)
         {
             Console.WriteLine("Hej Codesion & Bitbucket!");
+            Console.WriteLine("John här");
             Console.WriteLine("And goodbye!");
             Console.WriteLine("Freeedag :D");
         }
